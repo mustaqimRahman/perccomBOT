@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "Write name of any PERCCOM student to get information:"
+read nameRead
+
+inputfile="./perccomInfo.txt"
+
+while 	read line || [[=n "$line"]];
+
+do
+
+	name=$(echo $line | cut -f1 -d':' | xargs )
+	information=$(echo $line | cut -f2 -d':' | xargs )
+
+	if [[ "$nameRead" = "$name" ]];
+		then
+			echo  "$information";
+		exit
+	fi
+
+done < "$inputfile"
