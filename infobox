@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "Enter name: "
+read name
+
+
+DIALOG=gdialog || DIALOG=dialog
+
+detail=$($DIALOG --title "Selection for $name" --menu "Command" 15 50 8 \
+	  "$(cat ./studentInfo/Mustaqim)" "Mustaqim" \
+	  "$(cat ./studentInfo/Rafiul)" "Rafiul" \
+	  "$(cat ./studentInfo/Manish)" "Manish" \
+	#  "$(cat ./data/Gemini)" "Gemini" \
+	#  "$(cat ./data/Leo)" "Leo" \
+	#  "$(cat ./data/Libra)" "Libra" \
+
+	    3>&2 2>&1 1>&3)|| end
+
+echo "$detail"
+
+exit
+
+exit
