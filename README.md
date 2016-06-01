@@ -11,9 +11,9 @@ How to run the applicaton in your environment?
   
 Or
 
-1.Clone the git repository in your computer. [No need to change token file]
-2.Open the directory in your terminal
-3.run './bashbot.sh start' command 
-4.For using TUI version type "./perccom_ui.sh" in terminal
-5.For using GUI version type "./perccom_gui.sh" in terminal
+1. Clone the git repository in your computer. [No need to change token file]
+2. Open the directory in your terminal
+3. run './bashbot.sh start' command 
+4. For using TUI version type "./perccom_ui.sh" in terminal
+5. For using GUI version type "./perccom_gui.sh" in terminal
 
