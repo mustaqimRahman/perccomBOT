@@ -13,9 +13,9 @@ do
 
 if [[ "$name" = "$1" ]]; then
 #MSG=$("`$GETTEXT \'Result:\'` $information \\n\\n`$GETTEXT \'Continue?\'`" 8 35 3>&2 2>&1 1>&3) || end
-MSG=$("`$GETTEXT \'Result: \'` $information " 8 35 3>&2 2>&1 1>&3) || end
+#MSG=$("$information" 8 35sss) || end
 
-$DIALOG --yesno "$MSG" 7 10 || end
+$DIALOG --title "Details of $1: " --infobox "$information" 7 10 || end
 
 exit
 fi
