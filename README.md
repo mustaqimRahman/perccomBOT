@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #bashbot
 A Telegram bot written in bash.
 
@@ -240,3 +241,7 @@ bash bashbot.sh broadcast "Hey! I just wanted to let you know that the bot's bee
 That's it!
 
 If you feel that there's something missing or if you found a bug, feel free to submit a pull request!
+=======
+# perccomBOT
+This is a telegram bot and it provides information on all the PERCCOM students.
+>>>>>>> 9375ecd8002a4949de8a7573db51ec95063bfa7a
