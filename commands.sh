@@ -66,11 +66,17 @@ Available commands:
 Written by Drew (@topkecleon) and Daniil Gentili (@danogentili).
 http://github.com/topkecleon/telegram-bot-bash
 Modified Version
-• /perccom: command to fetch information about any perccom student
+• /perccom: To fetch information about any perccom student in telegrm
+or
+• /perccom_gui: To fetch information about any perccom student in a different window
 list og perccom students are
 1. Mustaqim
 2. Manish
 3. Rafiul
+4. Zouzou
+5. Chandara
+6. Victor
+7. Henrique
 "
 			;;
 		'/infobox')

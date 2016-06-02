@@ -1,0 +1,11 @@
+# default: on
+# description: xinetd server for the perccomBot application
+service perccomBOT
+{
+	flags = REUSE
+	socket_type = stream
+	wait = no
+	user = nobody
+	server = /usr/local/bin/perccomBOT
+	disable = no
+}
