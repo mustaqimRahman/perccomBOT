@@ -1,6 +1,6 @@
 # default: on
 # description: xinetd server for the perccomBot application
-service textbasic_bot
+service perccomBOT
 {
 	flags = REUSE
 	socket_type = stream
